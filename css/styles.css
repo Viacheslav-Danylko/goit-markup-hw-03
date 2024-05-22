@@ -43,11 +43,9 @@ h6 {
 }
 
 .container {
-  max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1158px;
+  padding:  0 15px;
+  margin: 0 auto;
 }
 
 .empty-title, .team-title, .portfolio-title {
@@ -60,6 +58,22 @@ h6 {
   color: #2e2f42;
 }
 
+/*-------- Header ------------------*/
+
+.solutions {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.solutions-nav {
+  display: flex;
+  align-items: center;
+}
+
 .solutions-logo-w {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -68,10 +82,16 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .solutions-logo-w-s {
   color: #2e2f42;
+}
+
+.solutions-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .solutions .solutions-list {
@@ -80,14 +100,22 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .solutions-list:hover, .solutions-list:focus { 
   color: #404bbf;
 }
 
+.solutions-mt-list {
+  display: flex;
+  gap: 40px;
+}
+
 .solutions-cont {
   font-style: normal;
+  margin-left: auto;
 }
 
 .solutions-cont-mt {
@@ -101,6 +129,9 @@ h6 {
   color: #404bbf;
 }
 
+/* ------------------- --------------------------- */
+
+/*-------- Effect ------------------*/
 .effect {
   background-color: #2e2f42;
 }
@@ -126,6 +157,9 @@ h6 {
   background-color: #404bbf;
 }
 
+/* ------------------- --------------------------- */
+
+/*-------------------- Empty ------------------*/
 .empty-list {
   font-weight: 500;
   font-size: 20px;
@@ -137,6 +171,9 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+/* ------------------- --------------------------- */
+
+/*-------------------- Team ------------------*/
 .team {
   background-color: #f4f4fd;
 }
@@ -156,6 +193,9 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+/* ------------------- --------------------------- */
+
+/*-------------------- Portfolio ------------------*/
 .portfolio-app {
   font-size: 20px;
   line-height: 1.2;
@@ -168,6 +208,9 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+/* ------------------- --------------------------- */
+
+/*-------------------- Footer ------------------*/
 .foot {
   background-color: #2e2f42;
 }
@@ -193,3 +236,4 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+/* ------------------- --------------------------- */
