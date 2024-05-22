@@ -136,12 +136,17 @@ h6 {
   background-color: #2e2f42;
 }
 
+.hero {
+  padding: 188px 0;
+}
+
 .effect-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  margin-bottom: 48px;
 }
 
 .effect-but {
@@ -151,6 +156,9 @@ h6 {
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .effect-but:hover, .effect-but:focus {
