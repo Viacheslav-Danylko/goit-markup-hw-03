@@ -270,12 +270,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* margin: 0 0 8px 16px; */
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
   letter-spacing: 0.02em;
-  /* margin: 0 0 0 16px; */
 }
 
 .portfolio-li-text {
@@ -287,7 +286,6 @@ img {
 
 .portfolio-li-cashless {
   border: 1px solid #e7e9fc;
-  padding: 32px 16px 32px;
 }
 
 /* ------------------- --------------------------- */
