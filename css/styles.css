@@ -141,7 +141,7 @@ img {
 }
 
 .hero {
-  padding: 188px 0;
+  padding: 188px 0 188px;
 }
 
 .effect-title {
@@ -162,7 +162,7 @@ img {
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 4px;
-  /* width: 169px; */
+  min-width: 169px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
@@ -178,10 +178,14 @@ img {
 
 /*-------------------- Empty ------------------*/
 
+.empty {
+  padding: 120px 0 120px;
+}
+
 .empty-list {
   display: flex;
   gap: 24px;
-  margin: 120px 0;
+  /* margin: 120px 0; */
 }
 
 .empty-list-li {
