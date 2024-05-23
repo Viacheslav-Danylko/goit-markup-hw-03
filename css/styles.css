@@ -29,6 +29,10 @@ h6 {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -146,7 +150,8 @@ h6 {
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
+  max-width: 496px;
 }
 
 .effect-but {
@@ -156,9 +161,13 @@ h6 {
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  border-radius: 4px;
+  /* width: 169px; */
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  border: none;
 }
 
 .effect-but:hover, .effect-but:focus {
@@ -168,11 +177,23 @@ h6 {
 /* ------------------- --------------------------- */
 
 /*-------------------- Empty ------------------*/
+
 .empty-list {
+  display: flex;
+  gap: 24px;
+  margin: 120px 0;
+}
+
+.empty-list-li {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.empty-list-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .empty-p {
@@ -182,38 +203,95 @@ h6 {
 /* ------------------- --------------------------- */
 
 /*-------------------- Team ------------------*/
+
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
-.team-li {
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+  text-align: center;
+}
+
+.team-list-li {
   background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-nf {
+.team-img {
+  margin-bottom: 32px;
+}
+
+.team-list-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-job {
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /* ------------------- --------------------------- */
 
 /*-------------------- Portfolio ------------------*/
-.portfolio-app {
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-list-li {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+/* .portfolio-img {
+  margin-bottom: 32px;
+} */
+
+.portfolio-list-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;  
-  font-weight: 500;
+  color: #2e2f42;
+  margin: 0 0 8px 16px;
+  padding-top: 32px;
 }
 
 .portfolio-text {
   letter-spacing: 0.02em;
+  margin: 0 0 32px 16px;
+}
+
+.portfolio-li-text {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-li-cashless {
+  border: 1px solid #e7e9fc;
 }
 
 /* ------------------- --------------------------- */
@@ -221,6 +299,13 @@ h6 {
 /*-------------------- Footer ------------------*/
 .foot {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .foot-logo {
@@ -242,6 +327,7 @@ h6 {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 /* ------------------- --------------------------- */
