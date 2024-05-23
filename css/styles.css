@@ -138,9 +138,6 @@ img {
 /*-------- Effect ------------------*/
 .effect {
   background-color: #2e2f42;
-}
-
-.hero {
   padding: 188px 0 188px;
 }
 
@@ -185,7 +182,6 @@ img {
 .empty-list {
   display: flex;
   gap: 24px;
-  /* margin: 120px 0; */
 }
 
 .empty-list-li {
@@ -307,9 +303,8 @@ img {
 }
 
 .footer-content {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .foot-logo {
